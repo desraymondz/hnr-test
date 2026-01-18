@@ -68,7 +68,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="mb-8 text-xl text-gray-600 dark:text-gray-400 md:text-2xl">
-            Full Stack Developer & Creative Problem Solver
+            Senior UX Engineer & Design Systems Specialist
           </p>
           <p className="mx-auto mb-12 max-w-2xl text-lg text-gray-500 dark:text-gray-500">
             I create beautiful, functional, and user-centered digital
