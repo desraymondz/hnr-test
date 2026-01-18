@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-black">
+    <main className="min-h-screen bg-[#FDFBF7] dark:bg-gradient-to-b dark:from-gray-900 dark:to-black">
       {/* Navigation */}
-      <nav className="fixed top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm dark:border-gray-800 dark:bg-gray-900/80">
+      <nav className="fixed top-0 z-50 w-full border-b border-gray-200 bg-[#FDFBF7]/80 backdrop-blur-sm dark:border-gray-800 dark:bg-gray-900/80">
         <div className="mx-auto max-w-7xl px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="text-xl font-bold text-gray-900 dark:text-white">
@@ -176,7 +176,7 @@ export default function Home() {
             ].map((category, idx) => (
               <div
                 key={idx}
-                className="rounded-xl border border-gray-200 bg-white p-6 shadow-lg transition-all hover:scale-105 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900"
+                className="rounded-xl border border-gray-200 bg-[#FDFBF7] p-6 shadow-lg transition-all hover:scale-105 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900"
               >
                 <div
                   className={`mb-4 inline-block rounded-lg bg-gradient-to-r ${category.color} p-3`}
@@ -214,7 +214,7 @@ export default function Home() {
             {[1, 2, 3, 4, 5, 6].map((project) => (
               <div
                 key={project}
-                className="group overflow-hidden rounded-xl border border-gray-200 bg-white shadow-lg transition-all hover:scale-105 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900"
+                className="group overflow-hidden rounded-xl border border-gray-200 bg-[#FDFBF7] shadow-lg transition-all hover:scale-105 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900"
               >
                 <div className="h-48 bg-gradient-to-br from-teal-400 via-emerald-500 to-green-500"></div>
                 <div className="p-6">
@@ -258,7 +258,7 @@ export default function Home() {
             ].map((contact, idx) => (
               <div
                 key={idx}
-                className="rounded-lg border border-gray-200 bg-white p-6 dark:border-gray-800 dark:bg-gray-900"
+                className="rounded-lg border border-gray-200 bg-[#FDFBF7] p-6 dark:border-gray-800 dark:bg-gray-900"
               >
                 <div className="mb-2 text-3xl">{contact.icon}</div>
                 <h3 className="mb-2 font-semibold text-gray-900 dark:text-white">
@@ -285,7 +285,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 bg-white px-6 py-8 dark:border-gray-800 dark:bg-gray-900">
+      <footer className="border-t border-gray-200 bg-[#FDFBF7] px-6 py-8 dark:border-gray-800 dark:bg-gray-900">
         <div className="mx-auto max-w-6xl text-center text-gray-600 dark:text-gray-400">
           <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
         </div>
