@@ -216,7 +216,7 @@ export default function Home() {
           <h2 className="mb-12 text-center text-4xl font-bold text-gray-900 dark:text-white md:text-5xl">
             Featured Projects
           </h2>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-2">
             {[1, 2, 3, 4, 5, 6].map((project) => (
               <div
                 key={project}
