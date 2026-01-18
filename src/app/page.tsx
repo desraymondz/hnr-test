@@ -258,8 +258,8 @@ export default function Home() {
           </p>
           <div className="mb-12 grid gap-6 md:grid-cols-3">
             {[
-              { label: "Email", value: "hello@example.com", icon: "✉️" },
-              { label: "Phone", value: "+1 (555) 000-0000", icon: "📱" },
+              { label: "Email", value: "sarah@sarahchen.dev", icon: "✉️" },
+              { label: "Phone", value: "+1 (415) 987-6543", icon: "📱" },
               { label: "Location", value: "San Francisco, CA", icon: "📍" },
             ].map((contact, idx) => (
               <div
@@ -291,7 +291,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 bg-[#FDFBF7] px-6 py-8 dark:border-gray-800 dark:bg-gray-900">
+      <footer className="border-t border-pink-300 bg-pink-100 px-6 py-8 dark:border-pink-800 dark:bg-pink-900">
         <div className="mx-auto max-w-6xl text-center text-gray-600 dark:text-gray-400">
           <p>&copy; {new Date().getFullYear()} Sarah Chen. All rights reserved.</p>
         </div>
