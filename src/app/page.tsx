@@ -52,12 +52,12 @@ export default function Home() {
         className="flex min-h-screen items-center justify-center px-6 pt-20"
       >
         <div className="mx-auto max-w-4xl text-center">
-          <div className="mb-8 inline-block rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
+          <div className="mb-8 inline-block rounded-full bg-gradient-to-r from-teal-500 to-emerald-600 p-1">
             <div className="h-32 w-32 rounded-full bg-white dark:bg-gray-900"></div>
           </div>
           <h1 className="mb-6 text-5xl font-bold tracking-tight text-gray-900 dark:text-white md:text-7xl">
             Hi, I&apos;m{" "}
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-teal-500 to-emerald-600 bg-clip-text text-transparent">
               Your Name
             </span>
           </h1>
@@ -71,7 +71,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
               href="#projects"
-              className="rounded-full bg-gradient-to-r from-blue-600 to-purple-600 px-8 py-3 text-white transition-all hover:scale-105 hover:shadow-lg"
+              className="rounded-full bg-gradient-to-r from-teal-500 to-emerald-600 px-8 py-3 text-white transition-all hover:scale-105 hover:shadow-lg"
             >
               View My Work
             </a>
@@ -118,7 +118,7 @@ export default function Home() {
               </p>
             </div>
             <div className="space-y-6">
-              <div className="rounded-lg bg-gradient-to-br from-blue-50 to-purple-50 p-6 dark:from-blue-900/20 dark:to-purple-900/20">
+              <div className="rounded-lg bg-gradient-to-br from-teal-50 to-emerald-50 p-6 dark:from-teal-900/20 dark:to-emerald-900/20">
                 <h4 className="mb-2 text-lg font-semibold text-gray-800 dark:text-white">
                   Experience
                 </h4>
@@ -127,7 +127,7 @@ export default function Home() {
                   with diverse teams to deliver high-quality software solutions.
                 </p>
               </div>
-              <div className="rounded-lg bg-gradient-to-br from-purple-50 to-pink-50 p-6 dark:from-purple-900/20 dark:to-pink-900/20">
+              <div className="rounded-lg bg-gradient-to-br from-emerald-50 to-green-50 p-6 dark:from-emerald-900/20 dark:to-green-900/20">
                 <h4 className="mb-2 text-lg font-semibold text-gray-800 dark:text-white">
                   Education
                 </h4>
@@ -136,7 +136,7 @@ export default function Home() {
                   software engineering and web technologies.
                 </p>
               </div>
-              <div className="rounded-lg bg-gradient-to-br from-pink-50 to-orange-50 p-6 dark:from-pink-900/20 dark:to-orange-900/20">
+              <div className="rounded-lg bg-gradient-to-br from-green-50 to-lime-50 p-6 dark:from-green-900/20 dark:to-lime-900/20">
                 <h4 className="mb-2 text-lg font-semibold text-gray-800 dark:text-white">
                   Philosophy
                 </h4>
@@ -161,17 +161,17 @@ export default function Home() {
               {
                 title: "Frontend",
                 skills: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-                color: "from-blue-500 to-cyan-500",
+                color: "from-teal-500 to-emerald-500",
               },
               {
                 title: "Backend",
                 skills: ["Node.js", "Python", "PostgreSQL", "MongoDB"],
-                color: "from-purple-500 to-pink-500",
+                color: "from-emerald-500 to-green-500",
               },
               {
                 title: "Tools & Others",
                 skills: ["Git", "Docker", "AWS", "CI/CD"],
-                color: "from-orange-500 to-red-500",
+                color: "from-green-500 to-lime-500",
               },
             ].map((category, idx) => (
               <div
@@ -216,7 +216,7 @@ export default function Home() {
                 key={project}
                 className="group overflow-hidden rounded-xl border border-gray-200 bg-white shadow-lg transition-all hover:scale-105 hover:shadow-xl dark:border-gray-800 dark:bg-gray-900"
               >
-                <div className="h-48 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500"></div>
+                <div className="h-48 bg-gradient-to-br from-teal-400 via-emerald-500 to-green-500"></div>
                 <div className="p-6">
                   <h3 className="mb-2 text-xl font-semibold text-gray-900 dark:text-white">
                     Project {project}
@@ -226,10 +226,10 @@ export default function Home() {
                     This project showcases my skills in web development.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="rounded-full bg-blue-100 px-3 py-1 text-sm text-blue-800 dark:bg-blue-900/30 dark:text-blue-300">
+                    <span className="rounded-full bg-teal-100 px-3 py-1 text-sm text-teal-800 dark:bg-teal-900/30 dark:text-teal-300">
                       React
                     </span>
-                    <span className="rounded-full bg-purple-100 px-3 py-1 text-sm text-purple-800 dark:bg-purple-900/30 dark:text-purple-300">
+                    <span className="rounded-full bg-emerald-100 px-3 py-1 text-sm text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300">
                       Next.js
                     </span>
                   </div>
