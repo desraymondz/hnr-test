@@ -291,7 +291,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 bg-[#FDFBF7] px-6 py-8 dark:border-gray-800 dark:bg-gray-900">
+      <footer className="border-t border-pink-300 bg-pink-100 px-6 py-8 dark:border-pink-800 dark:bg-pink-900">
         <div className="mx-auto max-w-6xl text-center text-gray-600 dark:text-gray-400">
           <p>&copy; {new Date().getFullYear()} Sarah Chen. All rights reserved.</p>
         </div>
