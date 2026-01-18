@@ -64,11 +64,11 @@ export default function Home() {
           <h1 className="mb-6 text-5xl font-bold tracking-tight text-gray-900 dark:text-white md:text-7xl">
             Hi, I&apos;m{" "}
             <span className="bg-gradient-to-r from-teal-500 to-emerald-600 bg-clip-text text-transparent">
-              Your Name
+              Sarah Chen
             </span>
           </h1>
           <p className="mb-8 text-xl text-gray-600 dark:text-gray-400 md:text-2xl">
-            Full Stack Developer & Creative Problem Solver
+            Senior UX Engineer & Design Systems Specialist
           </p>
           <p className="mx-auto mb-12 max-w-2xl text-lg text-gray-500 dark:text-gray-500">
             I create beautiful, functional, and user-centered digital
@@ -293,7 +293,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-gray-200 bg-[#FDFBF7] px-6 py-8 dark:border-gray-800 dark:bg-gray-900">
         <div className="mx-auto max-w-6xl text-center text-gray-600 dark:text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Sarah Chen. All rights reserved.</p>
         </div>
       </footer>
       </main>
