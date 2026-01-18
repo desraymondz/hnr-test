@@ -53,7 +53,13 @@ export default function Home() {
       >
         <div className="mx-auto max-w-4xl text-center">
           <div className="mb-8 inline-block rounded-full bg-gradient-to-r from-teal-500 to-emerald-600 p-1">
-            <div className="h-32 w-32 rounded-full bg-white dark:bg-gray-900"></div>
+            <Image
+              src="/profile.jpg"
+              alt="Profile photo"
+              width={128}
+              height={128}
+              className="h-32 w-32 rounded-full object-cover"
+            />
           </div>
           <h1 className="mb-6 text-5xl font-bold tracking-tight text-gray-900 dark:text-white md:text-7xl">
             Hi, I&apos;m{" "}
