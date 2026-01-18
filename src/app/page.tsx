@@ -259,7 +259,7 @@ export default function Home() {
           <div className="mb-12 grid gap-6 md:grid-cols-3">
             {[
               { label: "Email", value: "hello@example.com", icon: "✉️" },
-              { label: "Phone", value: "+1 (555) 000-0000", icon: "📱" },
+              { label: "Phone", value: "+1 (415) 987-6543", icon: "📱" },
               { label: "Location", value: "San Francisco, CA", icon: "📍" },
             ].map((contact, idx) => (
               <div
